@@ -195,6 +195,48 @@ h1 {
   font-size: 1.5rem;
 }
 
-
-
-
+/*campeones*/
+/*contenedor principal: divide el diseño en dos columnas(contienente y paises)*/
+.campeones{
+  display: grid;
+  grid-template-columns: 1fr 3fr; /*25%para contiente, 75% para paises*/
+  border: 2px solid #000;
+  width: 100%;
+}
+/*columna izquierda: contientete ocupara todo elk alto disponible automaticamente*/
+.continente{
+  border-right: 2px solid black;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 14px;
+  }
+  /*Columna derecha: Se convierte en otro Grid para organizar el contenido interno*/
+  .paises{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+  /*El titulo del pais ocupa las dos columnas*/
+  .pais{
+    grid-column: span 2;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 2px solid black;
+    }
+  /* Las fotos se acomodan una al lado de la otra automaticamente (50% cada una)*/
+    .foto{
+  min-height: 120px;
+  padding: 35px 10px 10px 10px;
+  font-size: 11px;
+  border-bottom: 2px solid black;
+    }
+    /* Borde vertical divisor solo en la primera foto*/
+    .foto:nth-of-type(odd){
+  border-right: 2px solid black;
+    }
+    .resenia{
+  grid-column: span 2;
+  padding: 10px;
+  min-height: 80px;
+  font-size: 11px;
+    }
