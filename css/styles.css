@@ -253,4 +253,15 @@ h1 {
       height: 400px;
       float: left;
       background-color: cadetblue;
+      padding: 25px;
     }
+#formulario input{
+  width: 100%;
+
+
+}
+#formulario label{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+
+}
