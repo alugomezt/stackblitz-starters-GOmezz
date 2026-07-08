@@ -246,3 +246,11 @@ h1 {
     .resenia p{
       font-size: 16 px;
     }
+
+    /*entradas*/
+    #formulario{
+      width: 500%;
+      height: 400px;
+      float: left;
+      background-color: cadetblue;
+    }
