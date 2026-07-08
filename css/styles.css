@@ -63,7 +63,7 @@ background-color: rgb(110, 104, 105);
 /*comienzo de main*/
 section {
   width: 900px;
-  height: 400px;
+  padding: 20px;
   background-color: #555;
   margin: 0 auto;
   margin-bottom: 15px;
@@ -250,7 +250,7 @@ h1 {
     /*entradas*/
     #formulario{
       width: 500%;
-      height: 400px;
+      height: 800px;
       float: left;
       background-color: cadetblue;
       padding: 25px;
